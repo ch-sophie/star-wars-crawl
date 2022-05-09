@@ -1,12 +1,12 @@
 body {
-    margin-top: 20%;
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
-    background-color: rgb(1, 1, 27);
-    display:flex;
-    /* background-image: url ("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
-     */
+    /* background-color: rgb(1, 1, 27); */
+    display:block;
+    background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+    
 }
 
 .page {
@@ -15,23 +15,23 @@ body {
     font-family: 'Noto Serif', serif; font-family: 'Oleo Script Swash Caps', cursive; font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;font-weight: bold;
 }
 
-
 .page {
     color: #ffc909;
     text-align: justify;
     line-height: 1.5;
     position: relative;
+
     animation-name: animated-scroll; 
-    animation-duration: 50s; 
+    animation-duration: 60s; 
     animation-direction:reverse ;
     animation-timing-function: linear;
     transform: perspective(300px) rotateX(25deg);
 
-}
+} 
 
 @keyframes animated-scroll {
-    from {top: 0px;}
-    to {top: 2000px;}
+    from {top: 100px;}
+    to {top: 3000px;}
 }
 
     /* animation-name: animated-scroll; 
@@ -45,6 +45,6 @@ h1 {
     text-align: center;
 }
 
-.image1 {
+.image {
     text-align:center;
 }
